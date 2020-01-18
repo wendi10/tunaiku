@@ -10,5 +10,6 @@ Step Instal Project :
  Projek ini dibuat menggunakan React Versi 16.12.0
   -Menggunakan Functional Component ( React Hooks )
   -Menggunakan Css Pre-proccesor (scss)
+  -Setup redux-saga (opsional: jika ingin menggunakan redux-saga)
   
  Halaman utama project ini akan menampilkan list film starwars Episode 1 - 7, ketika di klik akan menampilkan modal yang   berisikan detail film
