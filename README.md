@@ -1,7 +1,7 @@
 # tunaiku
 
 Step Instal Project :
-  - git clone https://github.com/wendi10/tunaiku.git
+  - run terminal 'git clone https://github.com/wendi10/tunaiku.git' 
   - open with your favorite editor
   - Run terminal (change directory to your project)
   - run 'npm i'
