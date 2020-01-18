@@ -1,0 +1,41 @@
+.card-film{
+    color: $font-color;
+    width: 400px;
+    height: 200px;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    @media only screen and (max-width: 600px) {
+        width: 300px;
+    }
+}
+
+#card-animation-1{
+    @include card-delay (1s) 
+}
+
+#card-animation-2{
+    @include card-delay (1.5s) 
+}
+
+#card-animation-3{
+    @include card-delay (2s) 
+}
+
+#card-animation-4{
+    @include card-delay (2.5s) 
+}
+
+#card-animation-5{
+    @include card-delay (3s) 
+}
+
+#card-animation-6{
+    @include card-delay (3.5s) 
+}
+
+#card-animation-7{
+    @include card-delay (4s) 
+}
