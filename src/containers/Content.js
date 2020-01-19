@@ -14,6 +14,7 @@ export default function Content () {
   }
 
   function getChar (eps) {
+    setChar([])
     fetchedData.results.map((data) => {
       if (data.episode_id === eps) {
         data.characters.map((char) => {
@@ -39,7 +40,7 @@ export default function Content () {
                     )
                   })
                 }
-              </>
+                </>
               : null
           }
         </div>
